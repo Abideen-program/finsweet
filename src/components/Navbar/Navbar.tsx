@@ -2,6 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 import { clx } from "../utils/clx";
+import Button from "../Button/Button";
 
 const listClasses = clx(
   "text-white lg:text-black lg:text-xs font-semibold py-2 px-4 cursor-pointer lg:hover:text-[#662E91]"
@@ -30,10 +31,10 @@ const Navbar = () => {
             <li className={listClasses}>About Us</li>
             <li className={listClasses}>Blog</li>
             <li className={listClasses}>Contact</li>
-            <li
-              className={`text-white lg:text-xs font-semibold py-2 px-4 cursor-pointer rounded-lg bg-[#1D2130] lg:text-white`}
-            >
-              Free Trial
+            <li>
+              <Button className="text-white bg-[#1D2130]">
+                Free Trial
+              </Button>
             </li>
           </ul>
         </div>

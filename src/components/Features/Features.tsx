@@ -5,10 +5,10 @@ import Headset from "../../../public/images/headset.png";
 
 const Features = () => {
   return (
-    <div className="p-5 md:p-10 my-3 flex flex-col">
+    <div className="p-5 md:p-10 md:my-3 flex flex-col">
       <div className="flex flex-col items-center justify-center md:w-[370px] mx-auto text-center">
         <p className="text-xs text-[#3860FD]">High-quality</p>
-        <h3 className="my-3 text-[25px] md:text-[30px] font-bold">
+        <h3 className="my-3 text-[20px] md:text-[30px] font-bold">
           We have the Best Solution for your Business
         </h3>
       </div>

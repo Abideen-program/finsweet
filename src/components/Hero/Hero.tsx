@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+
 const Hero = () => {
   return (
     <div className="flex flex-col py-10">
@@ -24,9 +26,10 @@ const Hero = () => {
               placeholder="Enter Your Email"
               className="w-full p-3 outline-none border-none text-xs"
             />
-            <button className="absolute bottom-1 right-1 text-xs text-white font-semibold py-2 px-4 cursor-pointer rounded-lg bg-[#1D2130]">
-              Get Free Trial
-            </button>
+            {/* <button className="absolute bottom-1 right-1 text-xs text-white font-semibold py-2 px-4 cursor-pointer rounded-lg bg-[#1D2130]">
+            </button> */}
+
+            <Button className='absolute bottom-1 right-1 text-white bg-[#1D2130]'>Get Free Trial</Button>
           </div>
         </div>
 
