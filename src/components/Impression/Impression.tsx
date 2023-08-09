@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 
 const Impression = () => {
   return (
-    <div className="p-5 md:p-10 border border-red-500 my-3 flex flex-col items-center justify-between relative overflow-y-hidden">
+    <div className="p-5 md:p-10 my-3 flex flex-col items-center justify-between relative overflow-y-hidden">
       <img
         src="./images/impressionbg.png"
         alt="background"
