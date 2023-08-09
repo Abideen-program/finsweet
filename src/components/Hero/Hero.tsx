@@ -1,13 +1,13 @@
 const Hero = () => {
   return (
-    <div className="border border-red-600 flex flex-col py-10">
-      <div className="mx-auto border border-sky-500 w-full lg:w-[1024px] text-center flex items-center justify-center flex-col relative overflow-y-hidden">
+    <div className="flex flex-col py-10">
+      <div className="mx-auto w-full lg:w-[1024px] text-center flex items-center justify-center flex-col relative overflow-y-hidden">
         <img
           src="./images/herobg.png"
           alt="background"
           className="absolute -z-10 top-4"
         />
-        <div className="md:w-[60%] lg:w-[50%] border border-yellow-800">
+        <div className="md:w-[60%] lg:w-[50%]">
           <h1 className="text-[20px] md:text-[25px] lg:text-[40px] font-semibold lg:leading-[50px]">
             The Best Software to Grow your Sales and Services
           </h1>
