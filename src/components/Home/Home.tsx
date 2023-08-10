@@ -2,6 +2,7 @@ import Customer from "../Customer/Customer";
 import Discover from "../Discover/Discover";
 import Features from "../Features/Features";
 import FeaturesTwo from "../Featurestwo/FeaturesTwo";
+import Footer from "../Footer/Footer";
 import Hero from "../Hero/Hero";
 import Impression from "../Impression/Impression";
 import Logo from "../Logo/Logo";
@@ -20,6 +21,7 @@ const Home = () => {
       <FeaturesTwo />
       <Customer />
       <Ready />
+      <Footer />
     </>
   );
 };
