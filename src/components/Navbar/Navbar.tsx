@@ -19,16 +19,22 @@ const Navbar = () => {
     <>
       {/* DESKTOP */}
       <div className="hidden w-full h-[50px] lg:flex items-center px-10">
-        <div className="w-[100px]">
-          <img src="./images/logo.png" alt="logo" className="object-contain" />
-        </div>
+        <Link to={"/"}>
+          <div className="w-[100px]">
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              className="object-contain"
+            />
+          </div>
+        </Link>
 
         <div className="ml-auto w-[55%]">
           <ul className="flex items-center justify-between">
             <Link to={"/"}>
               <li className={listClasses}>Home</li>
             </Link>
-            <Link to={'/product'}>
+            <Link to={"/product"}>
               <li className={listClasses}>Product</li>
             </Link>
             <li className={listClasses}>Pricing</li>
@@ -44,9 +50,11 @@ const Navbar = () => {
 
       {/* MOBILE */}
       <div className="lg:hidden w-full h-[50px] flex items-center justify-between px-6">
-        <div className="w-[100px]">
-          <img src="./images/logo.png" alt="logo" />
-        </div>
+        <Link to={"/"}>
+          <div className="w-[100px]">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+        </Link>
 
         {showMenu && (
           <div className="relative z-10">
@@ -55,8 +63,12 @@ const Navbar = () => {
                 className="text-xl text-[#fff] cursor-pointer absolute top-3 left-2"
                 onClick={hideMenuHandler}
               />
-              <li className={listClasses}>Home</li>
-              <li className={listClasses}>Product</li>
+              <Link to={"/"} onClick={hideMenuHandler}>
+                <li className={listClasses}>Home</li>
+              </Link>
+              <Link to={"/product"} onClick={hideMenuHandler}>
+                <li className={listClasses}>Product</li>
+              </Link>
               <li className={listClasses}>Pricing</li>
               <li className={listClasses}>About Us</li>
               <li className={listClasses}>Blog</li>
