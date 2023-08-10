@@ -1,3 +1,4 @@
+import Customer from "../Customer/Customer";
 import Discover from "../Discover/Discover";
 import Features from "../Features/Features";
 import FeaturesTwo from "../Featurestwo/FeaturesTwo";
@@ -16,6 +17,7 @@ const Home = () => {
       <Logo />
       <Discover />
       <FeaturesTwo />
+      <Customer />
     </>
   );
 };

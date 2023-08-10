@@ -1,11 +1,11 @@
-import Item from "./item";
+import Item from "./Item";
 import Message from "../../../public/images/message.png";
 import Bot from "../../../public/images/bot.png";
 import Shutter from "../../../public/images/shutter.png";
 
 const FeaturesTwo = () => {
   return (
-    <div className="border border-red-700 p-5 md:px-10 md:py-6 md:mb-3 flex flex-col">
+    <div className="p-5 md:px-10 md:py-6 flex flex-col">
       <div className="flex flex-col items-center justify-center md:w-[370px] mx-auto text-center">
         <h3 className="my-3 text-[20px] md:text-[30px] font-bold">Features</h3>
       </div>
