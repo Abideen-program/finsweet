@@ -1,3 +1,4 @@
+import Discover from "../Discover/Discover";
 import Features from "../Features/Features";
 import Hero from "../Hero/Hero";
 import Impression from "../Impression/Impression";
@@ -12,6 +13,7 @@ const Home = () => {
       <Whyus />
       <Impression />
       <Logo />
+      <Discover />
     </>
   );
 };
