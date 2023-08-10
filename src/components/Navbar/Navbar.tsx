@@ -25,16 +25,18 @@ const Navbar = () => {
 
         <div className="ml-auto w-[55%]">
           <ul className="flex items-center justify-between">
-            <li className={listClasses}>Home</li>
-            <li className={listClasses}>Product</li>
+            <Link to={"/"}>
+              <li className={listClasses}>Home</li>
+            </Link>
+            <Link to={'/product'}>
+              <li className={listClasses}>Product</li>
+            </Link>
             <li className={listClasses}>Pricing</li>
             <li className={listClasses}>About Us</li>
             <li className={listClasses}>Blog</li>
             <li className={listClasses}>Contact</li>
             <li>
-              <Button className="text-white bg-[#1D2130]">
-                Free Trial
-              </Button>
+              <Button className="text-white bg-[#1D2130]">Free Trial</Button>
             </li>
           </ul>
         </div>

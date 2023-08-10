@@ -1,15 +1,10 @@
-import {
-  FaFacebook,
-  FaTwitch,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import Button from "../Button/Button";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col p-5 md:p-10 gap-3 bg-[#1D2130]">
+    <div className="flex flex-col p-5 md:p-10 md:py-5 gap-3 bg-[#1D2130]">
+      
       <div className=" flex flex-col md:flex-row items-start justify-between  text-white">
         <div className="flex flex-col gap-3 flex-1">
           <h5 className="text-xs font-bold">Company</h5>
@@ -61,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t bordet-t-[#8E9097] px-10 mt-3 py-5 relative">
+      <div className="border-t bordet-t-[#8E9097] px-10 mt-3 py-2 relative">
         <div className="flex md:flex-row flex-col items-center justify-center gap-4 md:absolute md:-top-2  bg-[#1D2130] px-3">
           <p className="text-xs text-[#8E9097]">
             &copy; Copyright Finsweet 2022
