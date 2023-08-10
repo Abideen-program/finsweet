@@ -1,5 +1,6 @@
 import Discover from "../Discover/Discover";
 import Features from "../Features/Features";
+import FeaturesTwo from "../Featurestwo/FeaturesTwo";
 import Hero from "../Hero/Hero";
 import Impression from "../Impression/Impression";
 import Logo from "../Logo/Logo";
@@ -14,6 +15,7 @@ const Home = () => {
       <Impression />
       <Logo />
       <Discover />
+      <FeaturesTwo />
     </>
   );
 };

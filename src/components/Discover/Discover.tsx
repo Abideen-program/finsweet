@@ -1,7 +1,7 @@
 
 const Discover = () => {
   return (
-    <div className="border border-red-700 p-5 md:p-10 my-3 flex flex-col items-center justify-between">
+    <div className="p-5 md:px-10 md:py-6 my-3 flex flex-col items-center justify-between">
       <div className="mx-auto flex flex-col md:flex-row items-center lg:w-[800px] justify-between gap-3">
         <div className="flex flex-col gap-3 md:w-1/2 lg:w-[48%]">
           <p className="text-[#3860FD] text-xs font-semibold text-center md:text-start">
